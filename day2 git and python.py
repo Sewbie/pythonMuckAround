@@ -72,3 +72,14 @@ for p in primes:
 
 for i in range(0,len(primes),1):
     print('the value of i in this loop is:', primes[i])
+    
+    
+#if statements
+mass=10.02
+if mass>3.0 and mass <= 10.0: 
+    print(mass, 'is large')
+if mass >=3.0 and mass> 10.0:
+    print(mass,'is ridiculously large')
+else:
+    print(mass, 'is not large')
+    
